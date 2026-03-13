@@ -1,12 +1,4 @@
-/**
- * Demonstrates basic room modeling using abstraction and inheritance.
- * This use case introduces room types and static availability before
- * introducing data structures.
- *
- * Version: 2.1
- *
- * @author Abhisheak Baskaran
- */
+
 
 abstract class Room {
 
@@ -47,9 +39,7 @@ abstract class Room {
 }
 
 
-/**
- * Single Room implementation
- */
+
 class SingleRoom extends Room {
 
     public SingleRoom() {
@@ -58,9 +48,6 @@ class SingleRoom extends Room {
 }
 
 
-/**
- * Double Room implementation
- */
 class DoubleRoom extends Room {
 
     public DoubleRoom() {
@@ -69,9 +56,7 @@ class DoubleRoom extends Room {
 }
 
 
-/**
- * Suite Room implementation
- */
+
 class SuiteRoom extends Room {
 
     public SuiteRoom() {
@@ -80,9 +65,6 @@ class SuiteRoom extends Room {
 }
 
 
-/**
- * Application entry point for Use Case 2
- */
 class UseCase2RoomInitialization {
 
     public static void main(String[] args) {
@@ -117,10 +99,4 @@ class UseCase2RoomInitialization {
 
         System.out.println("Application execution completed.");
     }
-}/**
- * Entry point for the Book My Stay application.
- * Demonstrates how a Java program begins execution.
- *
- * @author Abhisheak Baskaran
- * @version 1.0
- */
+}
